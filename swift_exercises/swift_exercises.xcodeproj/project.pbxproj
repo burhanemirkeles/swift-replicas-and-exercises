@@ -1,0 +1,74 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXFileReference section */
+		752E132F28250208007BCAAA /* basic_programming.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = basic_programming.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		752E1328282501EB007BCAAA = {
+			isa = PBXGroup;
+			children = (
+				752E132F28250208007BCAAA /* basic_programming.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		752E1329282501EB007BCAAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+			};
+			buildConfigurationList = 752E132C282501EB007BCAAA /* Build configuration list for PBXProject "swift_exercises" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 752E1328282501EB007BCAAA;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		752E132D282501EB007BCAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		752E132E282501EB007BCAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		752E132C282501EB007BCAAA /* Build configuration list for PBXProject "swift_exercises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752E132D282501EB007BCAAA /* Debug */,
+				752E132E282501EB007BCAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 752E1329282501EB007BCAAA /* Project object */;
+}
