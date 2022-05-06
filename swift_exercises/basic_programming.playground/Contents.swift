@@ -209,10 +209,44 @@ print(in3050(30, 39))
 print(in3050(23,12))
 
 //17. Write a Swift program that accept two positive integer values and test whether the larger value is in the range 20..30 inclusive, or return 0 if neither is in that range.
-
+func max2030(_ x: Int, _ y: Int) -> Int {
+    if (x >= 20 && x <= 30 && y >= 20 && y <= 30) && x == y {
+        return x
+    } else if x >= 20 && x <= 30 && x > y {
+        return x
+    } else if y >= 20 && y <= 30 && y > x {
+        return y
+    } else if x >= 20 && x <= 30 && y > 30 {
+        return x
+    } else if y >= 20 && y <= 30 && x > 30 {
+        return y
+    } else {
+        return 0
+    }
+}
+print(max2030(22, 29))
+print(max2030(28, 17))
+print(max2030(8, 47))
 
 //18. Write a Swift program to test whether the last digit of the two given non-negative integer values are same or not.
-
+func same_last_Digit(_ a: Int, _ b: Int) -> Bool {
+    guard a < 0, b < 0
+    else
+    {
+        if a % 10 == b % 10
+        {
+            return true
+        }
+        else
+        {
+            return false
+        }
+    }
+    return false
+}
+print(same_last_Digit(3, 13))
+print(same_last_Digit(24, 4))
+print(same_last_Digit(12, 24))
 //19. Write a Swift program to convert the last three characters in upper case. If the string has less than 3 chars, lowercase whatever is there.
 
 //20. Write a Swift program to check if the first instance of "a" in a given string is immediately followed by another "a".
